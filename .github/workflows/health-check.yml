@@ -51,8 +51,8 @@ jobs:
         id: metrics
         env:
           SOURCES: |
-            GitHub->https://github.com
-            Facebook->https://facebook.com
+            Bowfast App->https://bowfast.app
+            Bowfast Backend->https://api.bowfast.app
           GITHUB_TOKEN: ${{ github.token }}
           JOB_NAME: ${{ github.workflow }}
           ARTIFACT_NAME: ${{ env.ARTIFACT_NAME }}
