@@ -51,7 +51,7 @@ jobs:
         id: metrics
         env:
           SOURCES: |
-            Bowfast App->https://bowfast.app
+            Bowfast App->https://bowfast.app/api/health
             Bowfast Backend->https://api.bowfast.app
           GITHUB_TOKEN: ${{ github.token }}
           JOB_NAME: ${{ github.workflow }}
